@@ -18,4 +18,4 @@ The column widths will be kept in sync by the ScrollableTable.update() method th
 		wrapperClass: 'tableBody'
 	});
 
-Working demo here: http://jsfiddle.net/gnTZ4/6/
+Working demo here: [jsFiddle](http://jsfiddle.net/gnTZ4/6/)
