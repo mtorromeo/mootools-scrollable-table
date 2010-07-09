@@ -10,10 +10,7 @@ How to use
 
 ScrollableTable works by taking the source table and splitting it in 3 separate tables containing the thead, tbody and tfoot.
 
-A div container will be created around the original (tbody) table and will be given a overflow:auto style to make it scrollable.
-
-The column widths will be kept in sync by the ScrollableTable.update() method that must be called if the table is modified.
-
+	#JS
 	var table = new ScrollableTable('mytable', {
 		wrapperClass: 'tableBody'
 	});
