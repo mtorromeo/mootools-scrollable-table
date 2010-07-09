@@ -94,6 +94,8 @@ provides:
 		}, this);
 
 		this.scrollableContainer.setStyle('width', this.table.getWidth() + this.options.scrollbarWidth);
+
+		return this;
 	},
 
 	toElement: function() {
